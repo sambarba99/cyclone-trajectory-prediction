@@ -1,0 +1,14 @@
+# Ignore all files...
+*.*
+
+# ...Except these...
+!.gitignore
+!*.csv
+!*.h5
+!*.md
+!*.png
+!*.py
+!*.txt
+
+# Ignore PyCharm .idea folder
+.idea/
