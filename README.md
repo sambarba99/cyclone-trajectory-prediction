@@ -27,7 +27,7 @@ The GeoPandas library has multiple dependencies, so it must be installed separat
 
 4. Create a folder for the dependencies (e.g. on desktop with the name `geopandas_deps`)
 5. Go to https://www.lfd.uci.edu/~gohlke/pythonlibs/
-6. Download the following binaries into the created folder: `GDAL`, `pyproj`, `fiona`, `shapely`, `geopandas`
+6. Download the following binaries into the created folder: `GDAL`, `pyproj`, `fiona`, `shapely`
    - Ensure Python version is correct and check if your OS is 32-bit or 64-bit (e.g., for v3.10 and a 64-bit OS, download `GDAL-3.4.3-cp310-cp310-win_amd64.whl`)
 7. In PowerShell run `cd '~\Desktop\geopandas_deps'` (or wherever your dependencies path is)
 8. Install GeoPandas by running these commands _IN THIS ORDER_:
@@ -35,9 +35,8 @@ The GeoPandas library has multiple dependencies, so it must be installed separat
    - `pip install <pyproj binary file name inc. extension>`
    - `pip install <fiona binary file name inc. extension>`
    - `pip install <shapely binary file name inc. extension>`
-   - `pip install <geopandas binary file name inc. extension>`
+   - `pip install geopandas`
    - _Tip: for each command, type `pip install` followed by the first 2 letters of the binary, then press tab for autocompletion._
-   - E.g. `pip install GD` <`tab` press> &rarr; `pip install .\GDAL-3.4.3-cp310-cp310-win_amd64.whl`
 
 Once these steps are done, the whole program can be run from the driver code `main.py`. The next section explains the outputs when it is run.
 
